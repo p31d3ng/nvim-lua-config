@@ -1,6 +1,6 @@
 -- following options are the default
 -- each of these are documented in `:help nvim-tree.OPTION_NAME`
-vim.g.nvim_tree_icons = {
+local nvim_tree_icons = {
   default = "",
   symlink = "",
   git = {
@@ -46,6 +46,11 @@ nvim_tree.setup {
   disable_netrw = true,
   hijack_netrw = true,
   open_on_setup = false,
+  renderer = {
+    icons = {
+      glyphs = nvim_tree_icons,
+    },
+  },
   ignore_ft_on_setup = {
     "startify",
     "dashboard",
