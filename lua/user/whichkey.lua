@@ -97,6 +97,10 @@ local mappings = {
     "<cmd>lua require('telescope.builtin').live_grep()<cr>",
     "Live Grep",
   },
+  ["r"] = {
+    "<cmd>lua require('telescope.builtin').oldfiles()<cr>",
+    "Recently Opened",
+  },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
   ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
 
