@@ -125,16 +125,19 @@ bufferline.setup {
       fg = { attribute = "fg", highlight = "TabLineSel" },
       bg = { attribute = "bg", highlight = "TabLineSel" },
       italic = true,
+      underline = true,
     },
     duplicate_visible = {
       fg = { attribute = "fg", highlight = "TabLine" },
       bg = { attribute = "bg", highlight = "TabLine" },
       italic = true,
+      underline = true,
     },
     duplicate = {
       fg = { attribute = "fg", highlight = "TabLine" },
       bg = { attribute = "bg", highlight = "TabLine" },
       italic = true,
+      underline = true,
     },
 
     modified = {
